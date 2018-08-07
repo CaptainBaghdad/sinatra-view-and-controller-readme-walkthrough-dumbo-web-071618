@@ -18,6 +18,6 @@ class App < Sinatra::Base
     # Write your code here!
     @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
     
-
-  end
+      erb :friends
+    end
 end
